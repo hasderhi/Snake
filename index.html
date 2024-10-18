@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="icon" type="image/icon" href="favicon.ico">
+    <style>
+        canvas {
+            margin: 10px;
+            border: 10px solid rgb(148, 148, 148);
+            background-color: black;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #resetButton {
+            margin-top: 40px;
+            padding: 10px;
+            font-size: 16px;
+            
+        }
+        .canvas-container {
+            width: 400px;
+            height: 400px;
+            position: relative;
+            align-items: center;
+            max-width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: Verdana;
+            text-align: center;
+        }
+        .title-container {
+            text-align: center;
+            font-family: Verdana;
+        }
+        body {
+            overflow: hidden; 
+            background-color: beige;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="title-container">
+        <h1>Snake Game</h1>
+        <h3>Press <b>SPACE</b> to start or pause!<br>Use the <b>ARROW KEYS</b> to control the snake and<br>try to get as long as possible by eating the apple, <br>but be careful to not hit the walls or yourself!</h3>
+    </div>
+    <div class="canvas-container">
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+    </div>
+    <div class="canvas-container">
+        <button id="resetButton">Reset High Score</button>
+        <p>Made by Tobias Kisling (Github: https://github.com/hasderhi)</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
