@@ -4,41 +4,22 @@
 
 This repository contains a simple implementation of the classic Snake game. The game is built using HTML, CSS, and JavaScript, and is designed to be played directly in a web browser.
 
-  
-
 Contents:
 
- 
-
- - index.html: The main HTML file that contains the structure of the
+- index.html: The main HTML file that contains the structure of the
           game and the CSS internally.
 
-       
-      
+- favicon.ico: The icon displayed in the browser tab.
 
- - favicon.ico: The icon displayed in the browser tab.
-
-   
-       
-   
-  
-
- - script.js: The JavaScript file that contains the game logic and
+- script.js: The JavaScript file that contains the game logic and
               controls.
 
-  
-
 ## How to Run the Game
-
-  
-  
 
  1. Open the HTML File: Navigate to the cloned folder and open the
     index.html file in your web browser. You can do this by
     double-clicking the file or by dragging it into an open browser
     window.
-
-  
 
 ## How to Play
 
@@ -58,7 +39,5 @@ Click the "Reset High Score" button to reset your high score.
 ## Made By
 
 This game was developed by *Tobias Kisling*. You can find more of his work on his [Github](https://github.com/hasderhi).
-
-  
 
 **Enjoy playing the Snake game!**
